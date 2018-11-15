@@ -63,7 +63,7 @@ public class Hash {
 	    boolean collision = false;
 	    int index = key % size;
 		while(!(collision)) {
-	    	 if(hashTable[index] == 0) {
+	    		 if(hashTable[index] == 0) {
 			    	hashTable[index] = key;
 			    	collision = true;
 			 }
